@@ -72,7 +72,8 @@ l'implementation des opérations se trouve dans le package **islands**
 il existe 2 containers class :
  - MainContainer : qui contient les 3 agents principaux par defaut.
 
- ```public class MainContainer {
+ ```java
+ public class MainContainer {
     public static void main(String[] args) throws ControllerException {
         Runtime runtime=Runtime.instance();
         ProfileImpl profile=new ProfileImpl();
@@ -109,7 +110,7 @@ Vous pouvez modifier la valeur optimale de fitness et aussi solution à chercher
 - chromosome_size doit etre égale à la longeur de la solution.
 - la population maximale = 100 ( au dela va engendrer un erreur)
   
-```
+```java
 public class GAUtils {
 
 public static final int MAX_IT=2000;
