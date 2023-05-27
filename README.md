@@ -1,15 +1,15 @@
 # Distributed genetic algorithms
 ## 📝 Table of Contents
-- [INTRODUCTION](#-INTRODUCTION)
-  - [Calculating the fitness score](#-Calculating-the-Fitness-Score)
+- [INTRODUCTION](#1-introduction-en-)
+  - [Calculating the fitness score](2--calculating-the-fitness-score)
 - [Genetic Algorithm Conception & Implementation](#-genetic-algorithm-idea--implementation)
-  - [Partie conception](#Partie-conception)
-  - [Partie fonctionnement :](#Partie-Fonctionnement)
+  - [Partie conception](#3-partie-conception-)
+  - [Partie fonctionnement :](#4-partie-fonctionnement-)
     - [Container Class:](#Container-Class)
     - [Agent Class:](#Agent-Class)
 
-- [Partie Execution :](#Partie-Execution)
-- [Update of the project](#-Update)
+- [Partie Execution :](#5-partie-execution-)
+- [Update of the project](#6-update)
 ### 1. INTRODUCTION (EN) 📖
 **Parallel genetic algorithm** is such an algorithm that uses multiple genetic algorithms to solve a single task. All these algorithms try to solve the same task and after they’ve completed their job, the best individual of every algorithm is selected, then the best of them is selected, and this is the solution to a problem. This is one of the most popular approach to parallel genetic algorithms, even though there are others. This approach is often called ‘island model’ because populations are isolated from each other, like real-life creature populations may be isolated living on different islands. Image below illustrates that.
 
@@ -42,7 +42,7 @@ Le systeme multi agent de cette application base sur l'achitecture CENTRALISEE c
 - Master Agent ( agent qui controle les opérations de genetic algorithm : selection, crossover, mutation, getFitness, get_optimum_individual...)
 
 - individual Agent : il represente un individuel et il applique des opérations demandées par le Master Agent.
-### 3. Partie Fonctionnement : 
+### 4. Partie Fonctionnement : 
 
 1) Créer une population avec X individus ( notre cas X = 100 )
 2) Distribution de la population sur les 3 islands Agent:
@@ -96,13 +96,13 @@ il existe 2 agents class :
 - IndividualAgent : c'est l'agent qui represente un individu , avec son chromosome et sa fitness.
 
 --- 
-### 4. Partie Execution 📝 
+### 5. Partie Execution 📝 
 1. lancer la classe MainContainer
 2. lancer la classe SimpleContainer
 
 ![SimpleContainer class](SCREENS/Execution.png)
 
-### 5. Update 
+### 6. Update 
 
 Vous pouvez modifier la valeur optimale de fitness et aussi solution à chercher dans la classe **dictionnary/GAUtils: 
  **NOTE BIEN** : 
