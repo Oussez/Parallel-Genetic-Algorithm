@@ -10,5 +10,5 @@ Le systeme multi agent de cette application base sur l'achitecture CENTRALISEE c
 - Master Agent ( agent qui controle les opérations de genetic algorithm : selection, crossover, mutation, getFitness, get_optimum_individual...)
 
 - individual Agent : il represente un individuel et il applique des opérations demandées par le Master Agent.
-
+![islands model](https://miro.medium.com/v2/resize:fit:640/format:webp/1*EtWIjfFjiyHkS12sCZAGrA.png)
 ![islands modelxx](/Parallel Genetic Algorithm/SCREENS/Execution.png)
