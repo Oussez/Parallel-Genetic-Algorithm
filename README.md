@@ -1,7 +1,7 @@
 # Distributed genetic algorithms
 ## 📝 Table of Contents
 - [INTRODUCTION](#1-introduction-en-)
-  - [Calculating the fitness score](2--calculating-the-fitness-score)
+  - [Calculating the fitness score](#2--calculating-the-fitness-score)
 - [Genetic Algorithm Conception & Implementation](#-genetic-algorithm-idea--implementation)
   - [Partie conception](#3-partie-conception-)
   - [Partie fonctionnement :](#4-partie-fonctionnement-)
