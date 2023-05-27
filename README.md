@@ -11,4 +11,4 @@ Le systeme multi agent de cette application base sur l'achitecture CENTRALISEE c
 
 - individual Agent : il represente un individuel et il applique des opérations demandées par le Master Agent.
 
-![islands model](./Parallel Genetic Algorithm/SCREENS/Execution.png)
+![islands modelxx](/Parallel Genetic Algorithm/SCREENS/Execution.png)
